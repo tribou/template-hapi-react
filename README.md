@@ -1,5 +1,7 @@
 # Template for Hapi.js and React
 
+[![Build Status](https://travis-ci.org/tribou/template-hapi-react.svg)](https://travis-ci.org/tribou/template-hapi-react)
+
 #### Quick Start
 
 ```
@@ -18,3 +20,9 @@ Linting is checked as well using JSLint.
 ```
 npm test
 ```
+
+## Changelog
+
+##### 1.0.0
+
+- Initial Hapi.js project creation
