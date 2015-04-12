@@ -23,7 +23,7 @@
     "template"
   ],
   "author": "tribou",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "dependencies": {
     "boom": "^2.6.1",
     "hapi": "^8.4.0",
