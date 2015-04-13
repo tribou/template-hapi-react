@@ -1,8 +1,8 @@
 {
-  "name": "template-hapi-react",
-  "version": "1.0.0",
+  "name": "template-react",
+  "version": "2.0.0",
   "private": true,
-  "description": "a starting template with passing tests for Hapi.js and React",
+  "description": "a starting template for React",
   "engines": {
     "node": "0.12.x"
   },
@@ -13,11 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:tribou/template-hapi-react.git"
+    "url": "git@github.com:tribou/template-react.git"
   },
   "keywords": [
-    "hapi",
-    "hapijs",
     "react",
     "reactjs",
     "template"
@@ -27,8 +25,7 @@
   "dependencies": {
     "boom": "^2.6.1",
     "hapi": "^8.4.0",
-    "joi": "^6.0.8",
-    "lout": "^6.2.1",
+    "react": "^0.13.1",
     "require-directory": "^2.1.0"
   },
   "devDependencies": {

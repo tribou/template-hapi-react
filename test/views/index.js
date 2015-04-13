@@ -15,7 +15,7 @@ var it = lab.it;
 var expect = Code.expect;
 
 
-describe('root', function () {
+describe('index', function () {
 
   it('replies with test success', function (done) {
 
@@ -32,10 +32,8 @@ describe('root', function () {
       url: '/'
     }, function (res) {
 
-      var payload = JSON.parse(res.payload);
-
       expect(res.statusCode).to.equal(200);
-      expect(payload.test).to.contain('success');
+      expect(res.payload).to.contain('id="main"');
       done();
     });
   });
