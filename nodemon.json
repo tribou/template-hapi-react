@@ -2,7 +2,9 @@
   "restartable": "rs",
   "ignore": [
     ".git",
-    "node_modules/**/node_modules"
+    "node_modules/**/node_modules",
+    ".tmp",
+    "views/layout.ejs"
   ],
-  "ext": "js json jsx"
+  "ext": "js json jsx html htm css ejs less txt"
 }

@@ -26,6 +26,10 @@ npm test
 
 ## Changelog
 
+##### 3.0.0
+
+- Convert project to implement [`sails-browserify`](https://github.com/Josebaseba/sails-browserify)
+
 ##### 2.0.0
 
 - Make project 'engine-agnostic'
