@@ -7,7 +7,7 @@
 #### Quick Start
 
 ```
-git clone https://github.com/tribou/template-react.git my-project
+git clone --recursive https://github.com/tribou/template-react.git my-project
 cd my-project
 npm install
 npm start
